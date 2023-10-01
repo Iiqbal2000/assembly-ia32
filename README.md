@@ -5,3 +5,4 @@
 ## Buku Saku
 1. https://flint.cs.yale.edu/cs421/papers/x86-asm/asm.html
 2. https://diveintosystems.org/book/C8-IA32/index.html
+3. https://sourceware.org/binutils/docs/as/
