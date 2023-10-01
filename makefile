@@ -1,3 +1,3 @@
 compile:
-	as -g number_to_ascii.s --32 -o number_to_ascii.o
-	gcc -g -o number_to_ascii.elf -m32 number_to_ascii.o -nostdlib
+	as -g do_while.s --32 -o do_while.o
+	gcc -g -o do_while.elf -m32 do_while.o -nostdlib
