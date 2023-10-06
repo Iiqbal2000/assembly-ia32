@@ -1,3 +1,3 @@
 compile:
-	as -g do_while.s --32 -o do_while.o
-	gcc -g -o do_while.elf -m32 do_while.o -nostdlib
+	as -g foor_loop.s --32 -o foor_loop.o
+	gcc -g -o foor_loop.elf -m32 foor_loop.o -nostdlib
