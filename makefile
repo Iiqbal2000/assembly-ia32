@@ -1,3 +1,3 @@
 compile:
-	as -g foor_loop.s --32 -o foor_loop.o
-	gcc -g -o foor_loop.elf -m32 foor_loop.o -nostdlib
+	as -g procedure_hello.s --32 -o procedure_hello.o
+	gcc -g -o procedure_hello.elf -m32 procedure_hello.o -nostdlib
