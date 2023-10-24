@@ -1,9 +1,10 @@
 services:
-  app:
+  playground:
+    build:
+      context: .
     entrypoint:
     - sleep
     - infinity
-    image: debian:stable-slim
     init: true
     volumes:
     - type: bind
