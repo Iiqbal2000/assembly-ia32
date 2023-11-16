@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     build-essential \
     libc6-i386 \
+    gdb \
     && rm -rf /var/lib/apt/lists/*  # Cleanup to reduce image size
 
 # Download and extract the fasm package
